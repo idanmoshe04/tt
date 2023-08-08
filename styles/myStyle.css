@@ -1,0 +1,351 @@
+﻿@font-face {
+    font-family: 'OS-Luizi-FFC-v1';
+    src: url('../fonts/os_luizi_round-ffc-web.woff2') format('woff2'),
+        url('../fonts/os_luizi_round-ffc-web.woff') format('woff');
+}
+
+
+/*
+הגדרות העמוד
+ימין לשמאל, צבע טקסט, וגודך
+*/
+body {
+    direction: rtl;
+    font-family: Assistant;
+    color: #064F8D;
+    font-size: 16px;
+}
+
+
+
+/*
+הגדרות תפריט ומחלקת ore
+פונט וגודל טקסט
+*/
+nav {
+    font-family: OS-Luizi-FFC-v1;
+    font-size: 18px;
+}
+
+#txt1 {
+    font-size: 21px;
+    right:30px;
+}
+
+
+
+h3 {
+    font-family: OS-Luizi-FFC-v1;
+    font-size: xx-large;
+}
+
+.ore {
+    font-family: OS-Luizi-FFC-v1;
+    font-size: 28px;
+}
+
+.doc {
+    font-family: OS-Luizi-FFC-v1;
+    font-size: 22px;
+    color: #064F8D;
+
+}
+
+
+/*
+הגדרה ללינקים בתפריט, מחקלה ore וכותרת H5
+צבע כתום
+*/
+.nav-link,
+.ore,
+h3 {
+    color: #F76F14;
+}
+
+
+
+/*
+הגדאה לתמונה בנאב
+*/
+.navbar-brand img {
+    width: 220px;
+}
+
+/*
+הגדרה לפריטים מסויימים בנאב כדי ליצור ריווח
+*/
+.nav-item {
+    margin: 15px;
+}
+
+
+
+/*
+הגדרות לכותרת H1
+*/
+h1 {
+    font-family: OS-Luizi-FFC-v1;
+    color: white;
+    font-size: 66px;
+}
+
+/*
+הגדרות לכותרת H2
+*/
+h2 {
+    font-family: OS-Luizi-FFC-v1;
+    font-size: 30px;
+}
+
+/*
+הגדרות לכותרת H5
+*/
+h5 {
+    font-family: OS-Luizi-FFC-v1;
+    font-size: 28px;
+    color: #064F8D;
+
+}
+
+.card {
+    width: 370px;
+    border: none;
+}
+
+.card-img-overlay {
+    margin: 38px 45px 0px 0px;
+    width: 290px;
+}
+
+
+.paper {
+    width: 400px;
+}
+
+#puD {
+    margin-top: 0px;
+
+}
+
+
+
+/*
+הגדרה לכפתורים
+*/
+.btn {
+    background-color: #F76F14;
+    color: #E4F0F5;
+    border-radius: 60px;
+    box-shadow: 0 4px 0px 0 #864113, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 500;
+    
+}
+
+.btn:hover {
+    border-color: #F76F14;
+    background-color: #ffffff;
+    color: #F76F14;
+}
+
+.disabled{
+    outline-style: gray;
+    background-color: lightgray;
+    border-radius: 60px;
+    box-shadow: 0 4px 0px 0 gray, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 500; 
+    pointer-events: none;
+}
+
+
+
+
+.nav-item a:hover {
+    color: #064F8D;
+}
+
+
+
+
+.txtHeader {
+    margin-top: -650px;
+    margin-right: 110px;
+    position: absolute;
+    z-index: 1;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.slide {
+    background-image: rgba(0, 0, 0, 1);
+}
+
+
+/*
+הגדרה עבור header והסקשנים
+*/
+
+section {
+    margin-bottom: 90px;
+}
+
+/* #BG{
+    background-image: url("/images/Asset 3.svg");
+} */
+
+.ml {
+    margin-right: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    width: 180px;
+    margin-right: 61px;
+}
+
+
+
+/*
+הגדרות שונות למלקה dragbox
+ואינפוט עם type="file"
+*/
+.dragBox,
+.dragBox input[type="file"] {
+    max-width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+    color: #F76F14;
+    border: 2px dashed #5DC4F1;
+    display: inline-block;
+    transition: transform 0.3s;
+    font-size: 25px;
+    font-family: OS-Luizi-FFC-v1;
+    border-radius: 10px;
+    background-color: #FEF4ED;
+    cursor: pointer;
+
+}
+
+/*
+מעבר עכבר על המחקלה בשל dragbox
+*/
+.dragBox:hover {
+    border-style: solid;
+}
+
+/*
+הגדרות לנראות של הגרירה
+*/
+.dragBox input[type="file"] {
+    position: relative;
+    max-width: 100%;
+    height: 200px;
+    opacity: 0;
+    bottom: 220px;
+    cursor: pointer;
+}
+
+#b {
+    margin-bottom: 0px;
+}
+
+/*
+הגדרות גרירה*/
+.draging {
+    transform: scale(1.1);
+}
+
+/*
+הגדרות לטקסט שמוצג לאחר העלאה
+*/
+#preview {
+    max-width: 250px;
+    white-space: nowrap;
+
+}
+
+
+
+.box {
+    .container:hover & {
+        transform: scale(0.9);
+    }
+}
+
+#box1 {
+    transition: all 1.3s;
+}
+
+#box2 {
+    transition: all 1.3s 0.5s;
+}
+
+#box3 {
+    transition: all 1.3s 1s;
+}
+
+#arr {
+
+    position: relative;
+    animation: mymove 1.3s infinite;
+}
+
+
+#arr:hover {
+    animation-play-state: paused;
+}
+
+
+
+@keyframes mymove {
+    from {
+        bottom: 0 px;
+    }
+
+    to {
+        bottom: 30px;
+    }
+}
+
+
+.navbar-brand img {
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    header {
+        margin-top: 50px;
+    }
+
+    h1 {
+        font-size: x-large;
+    }
+
+    #txt1 {
+        font-size: 16px;
+    }
+
+    .txtHeader {
+        margin-top: -240px;
+        margin-right: -24px;
+        color: white;
+        font-weight: 800;
+        width: 400px;
+    }
+
+    .navbar-brand img {
+        right: 10px;
+        bottom: 7px;
+
+    }
+
+    .ore {
+        font-family: OS-Luizi-FFC-v1;
+        font-size: 26px;
+    }
+}
